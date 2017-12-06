@@ -1,0 +1,28 @@
+{
+  "name": "pagarme",
+  "version": "0.1.0",
+  "description": "Pagarme integration using aspect oriented programming ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "./node_modules/babel-cli/bin/babel-node.js --presets node6 ./index.js"
+  },
+  "keywords": [
+    "pagarme",
+    "payment",
+    "aop"
+  ],
+  "author": "Matheus Mello, Daniel Moura",
+  "license": "ISC",
+  "dependencies": {
+    "aspectjs": "^2.0.4",
+    "babel-cli": "^6.26.0",
+    "babel-preset-node6": "^11.0.0",
+    "es6": "0.0.7",
+    "future": "^2.3.1",
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
